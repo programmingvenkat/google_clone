@@ -1,0 +1,38 @@
+body{
+	font-family: sans-serif;
+}
+#top-bar-list li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 15px;
+	font-size: 14px;
+
+}
+#top-bar-list li a{
+	color: gray;
+	text-decoration: none;
+	position: relative;
+	top:-3px;
+}
+#top-bar-list li a:hover{
+	color: gray;
+	text-decoration: underline;
+}
+#top-bar-list{
+	text-align: right;
+	margin:0px;
+}
+#top-bar-list li img{
+	width:20px;
+	height:20px;
+	position:relative;
+	top:2px;
+
+}
+
+#top-bar-list li #face{
+	width: 40px;
+	height: 40px;
+	position:relative;
+	top:10px;
+}
