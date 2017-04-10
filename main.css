@@ -14,6 +14,41 @@ body{
 	position: relative;
 	top:-3px;
 }
+.googlelogo{
+	text-align: center;
+	margin:auto;
+	margin-top: 30px;
+	width: 20%;
+
+}
+.searchbox{
+	margin: auto;
+	width:40%;
+	height:43px;
+	border: 1px solid rgb(225,225,225);
+	box-shadow: 3px 3px 2px rgb(175,175,175);
+	transition-duration: 0.3s;
+	margin-top: 0px;
+}
+.searchbox:hover{
+	box-shadow: 3px 3px 5px rgb(175,175,175);
+}
+.but{
+	margin:20px;
+	width: 150px;
+	height: 30px;
+	color: gray;
+	background: rgb(245,245,245);
+	border:none;
+}
+.but:hover{
+	color:black;
+	border: 1px solid rgb(215,215,215);
+
+}
+#search-bar{
+	text-align: center;
+}
 #top-bar-list li a:hover{
 	color: gray;
 	text-decoration: underline;
@@ -29,7 +64,7 @@ body{
 	top:2px;
 
 }
-
+#top-bar{margin:0;padding: 0;}
 #top-bar-list li #face{
 	width: 40px;
 	height: 40px;
